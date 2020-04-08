@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:banepower/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:banepower/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:banepower/prow:hmacToken
+segmentWriteKey: vault:banepower:segmentWriteKey
